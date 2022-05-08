@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo_List</title>
-
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="container">
-      <div id="mainDiv" class="header">
-        <h2>NHỮNG VIỆC CẦN LÀM</h2>
-        <input type="text" id="myIput" placeholder="thêm việc cần làm" />
-        <span onclick="newElement()" class="addBtn">thêm</span>
+      <div id="myDIV" class="header">
+        <h2 style="margin: 5px">Danh sách những việc cần làm</h2>
+        <input type="text" id="myInput" placeholder="Thêm việc...." />
+        <span onclick="newElement()" class="addBtn">Thêm</span>
       </div>
-      <ul id="myUl">
-        <li class="checked">Học Html</li>
-        <li>Học Js</li>
-        <li>Học Java</li>
+
+      <ul id="myUL">
+        <li class="checked">học html</li>
+        <li class="checked">học css</li>
+        <li>học java</li>
+        <li>học .NET</li>
       </ul>
     </div>
     <script src="./main.js"></script>
